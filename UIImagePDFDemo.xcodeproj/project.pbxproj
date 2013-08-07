@@ -16,6 +16,16 @@
 		8B8766EF17B2C795001C3409 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8766EE17B2C795001C3409 /* Default.png */; };
 		8B8766F117B2C795001C3409 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8766F017B2C795001C3409 /* Default@2x.png */; };
 		8B8766F317B2C795001C3409 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8766F217B2C795001C3409 /* Default-568h@2x.png */; };
+		8B8766FC17B2C7BA001C3409 /* Witch_cutout.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8B8766FA17B2C7BA001C3409 /* Witch_cutout.pdf */; };
+		8B8766FD17B2C7BA001C3409 /* Witch_cutout.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8766FB17B2C7BA001C3409 /* Witch_cutout.png */; };
+		8B8766FF17B2C7E1001C3409 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8766FE17B2C7E1001C3409 /* Storyboard.storyboard */; };
+		8B87670A17B2CC06001C3409 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8B87670117B2CC06001C3409 /* LICENSE.txt */; };
+		8B87670B17B2CC06001C3409 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B87670317B2CC06001C3409 /* NSString+MD5.m */; };
+		8B87670C17B2CC06001C3409 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B87670517B2CC06001C3409 /* PDFView.m */; };
+		8B87670D17B2CC06001C3409 /* UIImage+PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B87670717B2CC06001C3409 /* UIImage+PDF.m */; };
+		8B87670E17B2CC06001C3409 /* UIView+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B87670917B2CC06001C3409 /* UIView+Image.m */; };
+		8B87671117B2CD13001C3409 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B87671017B2CD13001C3409 /* ScrollViewController.m */; };
+		8B87671417B2DFCC001C3409 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B87671317B2DFCB001C3409 /* OptionsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,22 @@
 		8B8766EE17B2C795001C3409 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8B8766F017B2C795001C3409 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8B8766F217B2C795001C3409 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8B8766FA17B2C7BA001C3409 /* Witch_cutout.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Witch_cutout.pdf; sourceTree = "<group>"; };
+		8B8766FB17B2C7BA001C3409 /* Witch_cutout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Witch_cutout.png; sourceTree = "<group>"; };
+		8B8766FE17B2C7E1001C3409 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		8B87670117B2CC06001C3409 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		8B87670217B2CC06001C3409 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		8B87670317B2CC06001C3409 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		8B87670417B2CC06001C3409 /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
+		8B87670517B2CC06001C3409 /* PDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
+		8B87670617B2CC06001C3409 /* UIImage+PDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PDF.h"; sourceTree = "<group>"; };
+		8B87670717B2CC06001C3409 /* UIImage+PDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PDF.m"; sourceTree = "<group>"; };
+		8B87670817B2CC06001C3409 /* UIView+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Image.h"; sourceTree = "<group>"; };
+		8B87670917B2CC06001C3409 /* UIView+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Image.m"; sourceTree = "<group>"; };
+		8B87670F17B2CD13001C3409 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		8B87671017B2CD13001C3409 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		8B87671217B2DFCB001C3409 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		8B87671317B2DFCB001C3409 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +104,15 @@
 		8B8766E217B2C794001C3409 /* UIImagePDFDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8B87670017B2CC06001C3409 /* UIImage+PDF */,
+				8B8766F917B2C79E001C3409 /* Images */,
 				8B8766EB17B2C795001C3409 /* AppDelegate.h */,
 				8B8766EC17B2C795001C3409 /* AppDelegate.m */,
+				8B87670F17B2CD13001C3409 /* ScrollViewController.h */,
+				8B87671017B2CD13001C3409 /* ScrollViewController.m */,
+				8B87671217B2DFCB001C3409 /* OptionsViewController.h */,
+				8B87671317B2DFCB001C3409 /* OptionsViewController.m */,
+				8B8766FE17B2C7E1001C3409 /* Storyboard.storyboard */,
 				8B8766E317B2C794001C3409 /* Supporting Files */,
 			);
 			path = UIImagePDFDemo;
@@ -97,6 +130,31 @@
 				8B8766F217B2C795001C3409 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B8766F917B2C79E001C3409 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8B8766FA17B2C7BA001C3409 /* Witch_cutout.pdf */,
+				8B8766FB17B2C7BA001C3409 /* Witch_cutout.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8B87670017B2CC06001C3409 /* UIImage+PDF */ = {
+			isa = PBXGroup;
+			children = (
+				8B87670117B2CC06001C3409 /* LICENSE.txt */,
+				8B87670217B2CC06001C3409 /* NSString+MD5.h */,
+				8B87670317B2CC06001C3409 /* NSString+MD5.m */,
+				8B87670417B2CC06001C3409 /* PDFView.h */,
+				8B87670517B2CC06001C3409 /* PDFView.m */,
+				8B87670617B2CC06001C3409 /* UIImage+PDF.h */,
+				8B87670717B2CC06001C3409 /* UIImage+PDF.m */,
+				8B87670817B2CC06001C3409 /* UIView+Image.h */,
+				8B87670917B2CC06001C3409 /* UIView+Image.m */,
+			);
+			path = "UIImage+PDF";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +212,10 @@
 				8B8766EF17B2C795001C3409 /* Default.png in Resources */,
 				8B8766F117B2C795001C3409 /* Default@2x.png in Resources */,
 				8B8766F317B2C795001C3409 /* Default-568h@2x.png in Resources */,
+				8B8766FC17B2C7BA001C3409 /* Witch_cutout.pdf in Resources */,
+				8B8766FD17B2C7BA001C3409 /* Witch_cutout.png in Resources */,
+				8B8766FF17B2C7E1001C3409 /* Storyboard.storyboard in Resources */,
+				8B87670A17B2CC06001C3409 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +228,12 @@
 			files = (
 				8B8766E917B2C795001C3409 /* main.m in Sources */,
 				8B8766ED17B2C795001C3409 /* AppDelegate.m in Sources */,
+				8B87670B17B2CC06001C3409 /* NSString+MD5.m in Sources */,
+				8B87670C17B2CC06001C3409 /* PDFView.m in Sources */,
+				8B87670D17B2CC06001C3409 /* UIImage+PDF.m in Sources */,
+				8B87670E17B2CC06001C3409 /* UIView+Image.m in Sources */,
+				8B87671117B2CD13001C3409 /* ScrollViewController.m in Sources */,
+				8B87671417B2DFCC001C3409 /* OptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
